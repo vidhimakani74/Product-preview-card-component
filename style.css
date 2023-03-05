@@ -169,7 +169,7 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* horizontal for container */
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 1em;
   }
   
@@ -192,7 +192,7 @@ aside{
   
   .perfume {
     color: var(--darkGrayishBlue);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     letter-spacing: 5px;
     padding-top: 0;
     padding-bottom: 0.5rem;
@@ -209,9 +209,9 @@ aside{
   
   p {
     color: var(--darkGrayishBlue);
-    line-height: 1.5;
-    padding-top: 0.5rem;
-    font-size: 0.3em;
+    line-height: 1.1;
+    padding-top: 0.7rem;
+    font-size:smaller  ;
   }
   
   /* price */
@@ -223,7 +223,7 @@ aside{
   
   .discount {
     color: var(--darkCyan);
-    font-size: 2.1em;
+    font-size: 2.0em;
     font-family: "Fraunces", serif;
   }
   
@@ -240,9 +240,11 @@ aside{
   
   button {
     background-color: var(--darkCyan);
+    font-family: var(--font2);
     color: var(--White);
     width: 100%;
     padding: 0.8em;
+    margin-top: 0.8em;
     border-radius: 8px;
     border: none;
     font-family: "Fraunces", serif;
@@ -291,7 +293,7 @@ aside{
     }
   
     p {
-      font-size: 0.89rem;
+      font-size: 0.81rem;
     }
   }
   
